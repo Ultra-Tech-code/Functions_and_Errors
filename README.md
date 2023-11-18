@@ -4,6 +4,7 @@ MyWallet
 ## Description
 
 A simple wallet that allows user to receive ethers, withdraw ethers and also transfer ethers to another address
+Used in showcasing Error Handling in contract [revert, require, assert]
 
 ## Getting Started
 - Proficiency in [Hardhat](https://hardhat.org/): It is essential to have a good grasp of using Hardhat, a development environment designed for writing, testing, and deploying smart contracts. 
