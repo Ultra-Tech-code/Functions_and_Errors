@@ -33,7 +33,7 @@ async function main() {
   //send money [send 2 ethers]
   const sendEther = await mywalletContract.connect(owner).sendEther(reciever.address, ethers.utils.parseEther("2.0"));
   await sendEther.wait();
-  console.log("Sent 1 ether", sendEther);
+  console.log("Sent 2 ether", sendEther);
 
   //check balance
   const balanceafter = await mywalletContract.checkBalance();
