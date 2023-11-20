@@ -27,7 +27,7 @@ contract myWallet{
     // function to withdraw all the balance of the contract
     function withdraw(uint256 _amount) public onlyOwner {
         uint256 amount = _amount * 1 ether;
-        if(address(this).balance > amount){
+        if(address(this).balance < amount){
             revert Balance("Insufficient Balance");
         }
         
